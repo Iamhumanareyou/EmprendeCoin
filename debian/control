@@ -1,12 +1,12 @@
-Source: paycoin
+Source: MonedaDelEmprendimiento
 Section: utils
 Priority: optional
-Maintainer: wdl1908 <wdlbit@linux-lovers.be>
-Build-Depends: debhelper (>= 9.0.0),
+Maintainer: wdl1908 +ADw-wdlbit+AEA-linux-lovers.be+AD4-
+Build-Depends: debhelper (+AD4APQ- 9.0.0),
  devscripts,
  libqt4-dev,
  qt4-qmake,
- libdb++-dev,
+ libdbdev,
  libboost-system-dev,
  libboost-filesystem-dev,
  libboost-program-options-dev,
@@ -16,17 +16,17 @@ Build-Depends: debhelper (>= 9.0.0),
  libminiupnpc-dev,
  libqrencode-dev
 Standards-Version: 0.1.2.26
-Homepage: https://paycoin.com/
-Vcs-Git: https://github.com/PaycoinFoundation/paycoin.git
+Homepage: https://MonedaDelEmprendimiento.com/
+Vcs-Git: https://github.com/MonedaDelEmprendimientoFoundation/MonedaDelEmprendimiento.git
 
-Package: paycoin-qt
+Package: MonedaDelEmprendimiento-qt
 Architecture: any-amd64 any-i386 any-arm
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Paycoin wallet GUI
+Depends: +ACQAew-shlibs:Depends+AH0-, +ACQAew-misc:Depends+AH0-
+Description: MonedaDelEmprendimiento wallet GUI
  Peer-to-Peer cryptocurrency with Proof-of-Stake.
 
-Package: paycoind
+Package: MonedaDelEmprendimientod
 Architecture: any-amd64 any-i386 any-arm
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Paycoin daemon
+Depends: +ACQAew-shlibs:Depends+AH0-, +ACQAew-misc:Depends+AH0-
+Description: MonedaDelEmprendimiento daemon
  Peer-to-Peer cryptocurrency with Proof-of-Stake.

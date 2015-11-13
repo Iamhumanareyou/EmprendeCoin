@@ -1,25 +1,25 @@
-Paycoin Core integration/staging tree
+MonedaDelEmprendimiento Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/PaycoinFoundation/paycoin.svg?branch=master)](https://travis-ci.org/PaycoinFoundation/paycoin)
+[![Build Status](https://travis-ci.org/MonedaDelEmprendimientoFoundation/MonedaDelEmprendimiento.svg?branch=master)](https://travis-ci.org/MonedaDelEmprendimientoFoundation/MonedaDelEmprendimiento)
 
-https://www.paycoin.com
+https://www.MonedaDelEmprendimiento.com
 
-What is Paycoin?
+What is MonedaDelEmprendimiento?
 ----------------
 
-Paycoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Paycoin uses a proof-of-stake method in order for
-the Paycoin blockchain network to achieve distributed consensus. Paycoin Core is
+MonedaDelEmprendimiento is an experimental new digital currency that enables instant payments to
+anyone, anywhere in the world. MonedaDelEmprendimiento uses a proof-of-stake method in order for
+the MonedaDelEmprendimiento blockchain network to achieve distributed consensus. MonedaDelEmprendimiento Core is
 the name of open source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of the
-Paycoin Core software, see https://www.paycoin.com/#wallet.
+MonedaDelEmprendimiento Core software, see https://www.MonedaDelEmprendimiento.com/#wallet.
 
 License
 -------
 
-Paycoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+MonedaDelEmprendimiento Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -28,12 +28,12 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Paycoin
+If it is a simple/trivial/non-controversial change, then one of the MonedaDelEmprendimiento
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-[PaycoinTalk forum](https://www.paycointalk.org/category/8/paycoin-coincode)
+[MonedaDelEmprendimientoTalk forum](https://www.MonedaDelEmprendimientotalk.org/category/8/MonedaDelEmprendimiento-coincode)
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -41,8 +41,8 @@ match the project's coding conventions (see [doc/coding.md](doc/coding.md)) or a
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/PaycoinFoundation/paycoin/tags) are created
-regularly to indicate new official, stable release versions of Paycoin.
+completely stable. [Tags](https://github.com/MonedaDelEmprendimientoFoundation/MonedaDelEmprendimiento/tags) are created
+regularly to indicate new official, stable release versions of MonedaDelEmprendimiento.
 
 Translations
 ------------

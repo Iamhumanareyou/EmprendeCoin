@@ -6,19 +6,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Paycoin</source>
-        <translation>关于Paycoin</translation>
+        <source>About MonedaDelEmprendimiento</source>
+        <translation>关于MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;MonedaDelEmprendimiento&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MonedaDelEmprendimiento&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 MonedaDelEmprendimiento Developers
 
 This is experimental software.
 
@@ -27,7 +27,7 @@ Distributed under the MIT software license, see the accompanying file COPYING or
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>版权归比特币开发者所有  © 2009-2013 Bitcoin Developers
 版权归Peercoin开发者所有  © 2011-2014 Peercoin Developers
-版权归Paycoin开发者所有 © 2014 Paycoin Developers
+版权归MonedaDelEmprendimiento开发者所有 © 2014 MonedaDelEmprendimiento Developers
 
 这是一个实验性软件。
 
@@ -45,8 +45,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这些是你接受支付的Paycoin地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
+        <source>These are your MonedaDelEmprendimiento addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>这些是你接受支付的MonedaDelEmprendimiento地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -256,15 +256,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MonedaDelEmprendimientoS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>警告：如果您加密了您的钱包之后忘记了口令，您将会&lt;b&gt;失去所有的Paycoin&lt;/b&gt;！
+        <translation>警告：如果您加密了您的钱包之后忘记了口令，您将会&lt;b&gt;失去所有的MonedaDelEmprendimiento&lt;/b&gt;！
 确定要加密钱包吗？</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin将关闭软件以完成加密过程。 请谨记：钱包加密并不是万能的，电脑中毒，您的Paycoin还是有可能丢失。</translation>
+        <source>MonedaDelEmprendimiento will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MonedaDelEmprendimientos from being stolen by malware infecting your computer.</source>
+        <translation>MonedaDelEmprendimiento将关闭软件以完成加密过程。 请谨记：钱包加密并不是万能的，电脑中毒，您的MonedaDelEmprendimiento还是有可能丢失。</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -379,8 +379,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Paycoin</source>
-        <translation>显示Paycoin的相关信息</translation>
+        <source>Show information about MonedaDelEmprendimiento</source>
+        <translation>显示MonedaDelEmprendimiento的相关信息</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -494,38 +494,38 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin钱包</translation>
+        <source>MonedaDelEmprendimiento Wallet</source>
+        <translation>MonedaDelEmprendimiento钱包</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Paycoin address</source>
-        <translation>向一个Paycoin地址发送币</translation>
+        <source>Send coins to a MonedaDelEmprendimiento address</source>
+        <translation>向一个MonedaDelEmprendimiento地址发送币</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Paycoin</source>
-        <translation>关于Paycoin(&amp;A)</translation>
+        <source>&amp;About MonedaDelEmprendimiento</source>
+        <translation>关于MonedaDelEmprendimiento(&amp;A)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Paycoin</source>
+        <source>Modify configuration options for MonedaDelEmprendimiento</source>
         <translation>设置选项</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>显示/隐藏&amp;Paycoin</translation>
+        <source>Show/Hide &amp;MonedaDelEmprendimiento</source>
+        <translation>显示/隐藏&amp;MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Paycoin window</source>
+        <source>Show or hide the MonedaDelEmprendimiento window</source>
         <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Paycoin client</source>
-        <translation>Paycoin客户端</translation>
+        <source>MonedaDelEmprendimiento client</source>
+        <translation>MonedaDelEmprendimiento客户端</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -534,7 +534,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Paycoin network</source>
+        <source>%n active connection(s) to MonedaDelEmprendimiento network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
@@ -669,8 +669,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>发生致命错误。Paycoin无法继续安全运行，将要退出。</translation>
+        <source>A fatal error occurred. MonedaDelEmprendimiento can no longer continue safely and will quit.</source>
+        <translation>发生致命错误。MonedaDelEmprendimiento无法继续安全运行，将要退出。</translation>
     </message>
 </context>
 <context>
@@ -975,7 +975,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
+        <source>Whether to show MonedaDelEmprendimiento addresses in the transaction list</source>
         <translation>是否需要在交易清单中显示币地址</translation>
     </message>
     <message>
@@ -1043,8 +1043,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Paycoin address.</source>
-        <translation>您输入的“%1”不是有效的Paycoin地址。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MonedaDelEmprendimiento address.</source>
+        <translation>您输入的“%1”不是有效的MonedaDelEmprendimiento地址。</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1086,8 +1086,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开Paycoin端口。只有当您的路由器支持并开启了 UPnP 选项时此功能才有效。</translation>
+        <source>Automatically open the MonedaDelEmprendimiento client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动在路由器中打开MonedaDelEmprendimiento端口。只有当您的路由器支持并开启了 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1141,13 +1141,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Paycoin on window system startup</source>
-        <translation>系统启动时运行Paycoin(&amp;S)</translation>
+        <source>&amp;Start MonedaDelEmprendimiento on window system startup</source>
+        <translation>系统启动时运行MonedaDelEmprendimiento(&amp;S)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Paycoin after the computer is turned on</source>
-        <translation>计算机启动后自动开启Paycoin客户端</translation>
+        <source>Automatically start MonedaDelEmprendimiento after the computer is turned on</source>
+        <translation>计算机启动后自动开启MonedaDelEmprendimiento客户端</translation>
     </message>
 </context>
 <context>
@@ -1474,8 +1474,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Paycoin (Paycoin) debug window</source>
-        <translation>Paycoin (Paycoin)调试窗口</translation>
+        <source>MonedaDelEmprendimiento (MonedaDelEmprendimiento) debug window</source>
+        <translation>MonedaDelEmprendimiento (MonedaDelEmprendimiento)调试窗口</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1566,8 +1566,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>欢迎来到Paycoin RPC 控制台。&lt;br&gt;使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。&lt;br&gt;使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
+        <source>Welcome to the MonedaDelEmprendimiento RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>欢迎来到MonedaDelEmprendimiento RPC 控制台。&lt;br&gt;使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。&lt;br&gt;使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
 </context>
 <context>
@@ -1780,7 +1780,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
-        <source>Warning: Invalid Paycoin address</source>
+        <source>Warning: Invalid MonedaDelEmprendimiento address</source>
         <translation>警告：无效的币地址</translation>
     </message>
     <message>
@@ -1800,8 +1800,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Paycoin address</source>
-        <translation>输入一个Paycoin地址</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>输入一个MonedaDelEmprendimiento地址</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1889,8 +1889,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Paycoin address</source>
-        <translation>输入一个Paycoin地址</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>输入一个MonedaDelEmprendimiento地址</translation>
     </message>
 </context>
 <context>
@@ -1954,7 +1954,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Paycoin address</source>
+        <source>Sign the message to prove you own this MonedaDelEmprendimiento address</source>
         <translation>签名消息，证明这个地址属于您</translation>
     </message>
     <message>
@@ -1990,8 +1990,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>验证消息，确保消息是由指定的Paycoin地址签名过的</translation>
+        <source>Verify the message to ensure it was signed with the specified MonedaDelEmprendimiento address</source>
+        <translation>验证消息，确保消息是由指定的MonedaDelEmprendimiento地址签名过的</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2016,8 +2016,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Paycoin address</source>
-        <translation>输入一个Paycoin地址</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>输入一个MonedaDelEmprendimiento地址</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2573,18 +2573,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  MonedaDelEmprendimiento is probably already running.</source>
         <translation>无法绑定本机端口 %s Perunity可能已经在运行。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Paycoin version</source>
-        <translation>Paycoin版本</translation>
+        <source>MonedaDelEmprendimiento version</source>
+        <translation>MonedaDelEmprendimiento版本</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or paycoind</source>
-        <translation>向 -server或 paycoind发命令</translation>
+        <source>Send command to -server or MonedaDelEmprendimientod</source>
+        <translation>向 -server或 MonedaDelEmprendimientod发命令</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2603,13 +2603,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>指定配置文件 (默认为 paycoin.conf)</translation>
+        <source>Specify configuration file (default: MonedaDelEmprendimiento.conf)</source>
+        <translation>指定配置文件 (默认为 MonedaDelEmprendimiento.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 paycoind.pid)
+        <source>Specify pid file (default: MonedaDelEmprendimientod.pid)</source>
+        <translation>指定 pid 文件 (默认为 MonedaDelEmprendimientod.pid)
 </translation>
     </message>
     <message>
@@ -2878,30 +2878,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>无法锁住数据目录%s。Paycoin可能已经在运行中。</translation>
+        <source>Cannot obtain a lock on data directory %s.  MonedaDelEmprendimiento is probably already running.</source>
+        <translation>无法锁住数据目录%s。MonedaDelEmprendimiento可能已经在运行中。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>MonedaDelEmprendimiento</source>
+        <translation>MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>wallet.dat钱包文件加载错误：钱包需要更新版本的Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MonedaDelEmprendimiento</source>
+        <translation>wallet.dat钱包文件加载错误：钱包需要更新版本的MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>钱包文件需要被重写：请重新启动Paycoin客户端</translation>
+        <source>Wallet needed to be rewritten: restart MonedaDelEmprendimiento to complete</source>
+        <translation>钱包文件需要被重写：请重新启动MonedaDelEmprendimiento客户端</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=paycoinrpc
+rpcuser=MonedaDelEmprendimientorpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2910,8 +2910,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确。时间错误可能会导致Paycoin客户端运行异常。</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong MonedaDelEmprendimiento will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确。时间错误可能会导致MonedaDelEmprendimiento客户端运行异常。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

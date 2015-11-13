@@ -1,4 +1,4 @@
-Copyright (c) 2012-2013 Paycoin Developers
+Copyright (c) 2012-2013 MonedaDelEmprendimiento Developers
 Copyright (c) 2009-2012 Bitcoin Developers
 Distributed under the MIT software license, see the accompanying file
 COPYING or http://www.opensource.org/licenses/mit-license.php. This
@@ -10,7 +10,7 @@ Thomas Bernard.
 
 Mac OS X Mavericks build instructions
 =====================================
-How to build paycoind and Paycoin-Qt on 10.9
+How to build MonedaDelEmprendimientod and MonedaDelEmprendimiento-Qt on 10.9
 
 
 Prerequisites
@@ -68,19 +68,19 @@ All of the commands should be executed in Terminal.app
 
 9.  Clone the github tree to get the source code
 
-		git clone https://github.com/PaycoinFoundation/paycoin.git
+		git clone https://github.com/MonedaDelEmprendimientoFoundation/MonedaDelEmprendimiento.git
 
 
-Building paycoind
+Building MonedaDelEmprendimientod
 =================
 
 1.  Run the makefile
 
-		cd Paycoin/src/
+		cd MonedaDelEmprendimiento/src/
 		make -f makefile.osx RELEASE=true 64BIT=true
 
 
-Building Paycoin-Qt.app
+Building MonedaDelEmprendimiento-Qt.app
 =======================
 You cannot use Qt 4.8.6 if you want to deploy to other systems
 http://qt-project.org/forums/viewthread/41925
@@ -95,13 +95,13 @@ http://qt-project.org/forums/viewthread/41925
 
 3.  Use Qt Creator to build the project
 
-		Double-click Paycoin/bitcoin-qt.pro to open Qt-Creator
+		Double-click MonedaDelEmprendimiento/bitcoin-qt.pro to open Qt-Creator
 		Click the Configure Project button
 		Click on the monitor icon on the left bar above Debug and change it to Release
 		On the top menu, click Build and Build Project "bitcoin-qt"
 
 
-Deploying Paycoin-Qt.app
+Deploying MonedaDelEmprendimiento-Qt.app
 ========================
 Deploying your app is needed to run it on non-development systems
 
@@ -110,16 +110,16 @@ Deploying your app is needed to run it on non-development systems
 		sudo ln -s /opt/local/lib /opt/local/lib/lib
 		sudo ln -s /opt/local/lib/db48/libdb_cxx-4.8.dylib /opt/local/lib/libdb_cxx-4.8.dylib
 
-2.  Copy Paycoin-Qt.app and run macdeployqt to bundle required libraries
+2.  Copy MonedaDelEmprendimiento-Qt.app and run macdeployqt to bundle required libraries
 
 		mkdir deploy
-		cp -r build-bitcoin-qt-Desktop-Release/Paycoin-Qt.app/ deploy/Paycoin-Qt.app/
-		sudo macdeployqt deploy/Paycoin-Qt.app/
+		cp -r build-bitcoin-qt-Desktop-Release/MonedaDelEmprendimiento-Qt.app/ deploy/MonedaDelEmprendimiento-Qt.app/
+		sudo macdeployqt deploy/MonedaDelEmprendimiento-Qt.app/
 
 3.  Fix a dependency path
 
-		install_name_tool -change "/opt/local/lib/db48/libdb_cxx-4.8.dylib" "@executable_path/../Frameworks/libdb_cxx-4.8.dylib" deploy/Paycoin-Qt.app/Contents/MacOS/Paycoin-Qt
+		install_name_tool -change "/opt/local/lib/db48/libdb_cxx-4.8.dylib" "@executable_path/../Frameworks/libdb_cxx-4.8.dylib" deploy/MonedaDelEmprendimiento-Qt.app/Contents/MacOS/MonedaDelEmprendimiento-Qt
 
-4.  Compress Paycoin-Qt.app into a zip
+4.  Compress MonedaDelEmprendimiento-Qt.app into a zip
 
-		Right-click on Paycoin-Qt.app and click Compress
+		Right-click on MonedaDelEmprendimiento-Qt.app and click Compress

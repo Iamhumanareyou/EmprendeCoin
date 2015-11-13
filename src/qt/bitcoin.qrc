@@ -37,9 +37,9 @@
         <file alias="key">res/icons/key.png</file>
         <file alias="filesave">res/icons/filesave.png</file>
         <file>res/icons/horizontal_trans-no-shadow.png</file>
-        <file>res/icons/paycoin_testnet.png</file>
-        <file alias="paycoin_tooltip">res/icons/paycoin.png</file>
-        <file>res/icons/paycoin.ico</file>
+        <file>res/icons/MonedaDelEmprendimiento_testnet.png</file>
+        <file alias="MonedaDelEmprendimiento_tooltip">res/icons/MonedaDelEmprendimiento.png</file>
+        <file>res/icons/MonedaDelEmprendimiento.ico</file>
         <file alias="qrcode">res/icons/qrcode.png</file>
         <file alias="debugwindow">res/icons/debugwindow.png</file>
     </qresource>
@@ -86,36 +86,36 @@
         <file alias="spinner-034">res/movies/spinner-034.png</file>
     </qresource>
     <qresource prefix="/translations">
-        <file alias="ca_ES">locale/paycoin_ca_ES.qm</file>
-        <file alias="cs">locale/paycoin_cs.qm</file>
-        <file alias="da">locale/paycoin_da.qm</file>
-        <file alias="de">locale/paycoin_de.qm</file>
-        <file alias="en">locale/paycoin_en.qm</file>
-        <file alias="es_CL">locale/paycoin_es_CL.qm</file>
-        <file alias="es">locale/paycoin_es.qm</file>
-        <file alias="et">locale/paycoin_et.qm</file>
-        <file alias="eu_ES">locale/paycoin_eu_ES.qm</file>
-        <file alias="fa_IR">locale/paycoin_fa_IR.qm</file>
-        <file alias="fa">locale/paycoin_fa.qm</file>
-        <file alias="fi">locale/paycoin_fi.qm</file>
-        <file alias="fr">locale/paycoin_fr.qm</file>
-        <file alias="he">locale/paycoin_he.qm</file>
-        <file alias="hr">locale/paycoin_hr.qm</file>
-        <file alias="hu">locale/paycoin_hu.qm</file>
-        <file alias="it">locale/paycoin_it.qm</file>
-        <file alias="lt">locale/paycoin_lt.qm</file>
-        <file alias="nb">locale/paycoin_nb.qm</file>
-        <file alias="nl">locale/paycoin_nl.qm</file>
-        <file alias="pl">locale/paycoin_pl.qm</file>
-        <file alias="pt_BR">locale/paycoin_pt_BR.qm</file>
-        <file alias="ro_RO">locale/paycoin_ro_RO.qm</file>
-        <file alias="ru">locale/paycoin_ru.qm</file>
-        <file alias="sk">locale/paycoin_sk.qm</file>
-        <file alias="sr">locale/paycoin_sr.qm</file>
-        <file alias="sv">locale/paycoin_sv.qm</file>
-        <file alias="tr">locale/paycoin_tr.qm</file>
-        <file alias="uk">locale/paycoin_uk.qm</file>
-        <file alias="zh_CN">locale/paycoin_zh_CN.qm</file>
-        <file alias="zh_TW">locale/paycoin_zh_TW.qm</file>
+        <file alias="ca_ES">locale/MonedaDelEmprendimiento_ca_ES.qm</file>
+        <file alias="cs">locale/MonedaDelEmprendimiento_cs.qm</file>
+        <file alias="da">locale/MonedaDelEmprendimiento_da.qm</file>
+        <file alias="de">locale/MonedaDelEmprendimiento_de.qm</file>
+        <file alias="en">locale/MonedaDelEmprendimiento_en.qm</file>
+        <file alias="es_CL">locale/MonedaDelEmprendimiento_es_CL.qm</file>
+        <file alias="es">locale/MonedaDelEmprendimiento_es.qm</file>
+        <file alias="et">locale/MonedaDelEmprendimiento_et.qm</file>
+        <file alias="eu_ES">locale/MonedaDelEmprendimiento_eu_ES.qm</file>
+        <file alias="fa_IR">locale/MonedaDelEmprendimiento_fa_IR.qm</file>
+        <file alias="fa">locale/MonedaDelEmprendimiento_fa.qm</file>
+        <file alias="fi">locale/MonedaDelEmprendimiento_fi.qm</file>
+        <file alias="fr">locale/MonedaDelEmprendimiento_fr.qm</file>
+        <file alias="he">locale/MonedaDelEmprendimiento_he.qm</file>
+        <file alias="hr">locale/MonedaDelEmprendimiento_hr.qm</file>
+        <file alias="hu">locale/MonedaDelEmprendimiento_hu.qm</file>
+        <file alias="it">locale/MonedaDelEmprendimiento_it.qm</file>
+        <file alias="lt">locale/MonedaDelEmprendimiento_lt.qm</file>
+        <file alias="nb">locale/MonedaDelEmprendimiento_nb.qm</file>
+        <file alias="nl">locale/MonedaDelEmprendimiento_nl.qm</file>
+        <file alias="pl">locale/MonedaDelEmprendimiento_pl.qm</file>
+        <file alias="pt_BR">locale/MonedaDelEmprendimiento_pt_BR.qm</file>
+        <file alias="ro_RO">locale/MonedaDelEmprendimiento_ro_RO.qm</file>
+        <file alias="ru">locale/MonedaDelEmprendimiento_ru.qm</file>
+        <file alias="sk">locale/MonedaDelEmprendimiento_sk.qm</file>
+        <file alias="sr">locale/MonedaDelEmprendimiento_sr.qm</file>
+        <file alias="sv">locale/MonedaDelEmprendimiento_sv.qm</file>
+        <file alias="tr">locale/MonedaDelEmprendimiento_tr.qm</file>
+        <file alias="uk">locale/MonedaDelEmprendimiento_uk.qm</file>
+        <file alias="zh_CN">locale/MonedaDelEmprendimiento_zh_CN.qm</file>
+        <file alias="zh_TW">locale/MonedaDelEmprendimiento_zh_TW.qm</file>
     </qresource>
 </RCC>

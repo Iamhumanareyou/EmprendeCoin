@@ -6,19 +6,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Paycoin</source>
-        <translation>Om Paycoin</translation>
+        <source>About MonedaDelEmprendimiento</source>
+        <translation>Om MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;MonedaDelEmprendimiento&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MonedaDelEmprendimiento&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 MonedaDelEmprendimiento Developers
 
 This is experimental software.
 
@@ -27,7 +27,7 @@ Distributed under the MIT software license, see the accompanying file COPYING or
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>Copyright © 2009-2012 Bitcoin Utviklerne
 Copyright © 2011-2014 Peercoin Utviklerne
-Copyright © 2014 Paycoin Utviklerne
+Copyright © 2014 MonedaDelEmprendimiento Utviklerne
 Dette er eksperimentell programvare.
 Distribuert under MIT programvarelisensen, se medfølgende fil COPYING eller http://www.opensource.org/licenses/mit-license.php.
 Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i OpenSSL Toolkit (https://www.openssl.org/), kryptografisk programvare skrevet av Eric Young (eay@cryptsoft.com) og UPnP programvare skrevet av Thomas Bernard.</translation>
@@ -42,8 +42,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Paycoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
+        <source>These are your MonedaDelEmprendimiento addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine MonedaDelEmprendimiento-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -253,15 +253,15 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MonedaDelEmprendimientoS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE PAYCOINS&lt;/b&gt;!
+        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE MonedaDelEmprendimientoS&lt;/b&gt;!
 Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine paycoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
+        <source>MonedaDelEmprendimiento will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MonedaDelEmprendimientos from being stolen by malware infecting your computer.</source>
+        <translation>MonedaDelEmprendimiento vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine MonedaDelEmprendimientos fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -342,7 +342,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Motta paycoins</translation>
+        <translation>&amp;Motta MonedaDelEmprendimientos</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="216"/>
@@ -352,7 +352,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="221"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Send paycoins</translation>
+        <translation>&amp;Send MonedaDelEmprendimientos</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="227"/>
@@ -376,8 +376,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Paycoin</source>
-        <translation>Vis informasjon om Paycoin</translation>
+        <source>Show information about MonedaDelEmprendimiento</source>
+        <translation>Vis informasjon om MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -491,38 +491,38 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin Lommebok</translation>
+        <source>MonedaDelEmprendimiento Wallet</source>
+        <translation>MonedaDelEmprendimiento Lommebok</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Send mynter til en Paycoin-adresse</translation>
+        <source>Send coins to a MonedaDelEmprendimiento address</source>
+        <translation>Send mynter til en MonedaDelEmprendimiento-adresse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Paycoin</source>
-        <translation>&amp;Om Paycoin</translation>
+        <source>&amp;About MonedaDelEmprendimiento</source>
+        <translation>&amp;Om MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Endre oppsett for Paycoin</translation>
+        <source>Modify configuration options for MonedaDelEmprendimiento</source>
+        <translation>Endre oppsett for MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Vis/Skjul &amp;Paycoin</translation>
+        <source>Show/Hide &amp;MonedaDelEmprendimiento</source>
+        <translation>Vis/Skjul &amp;MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Vis eller skjul Paycoin-vinduet</translation>
+        <source>Show or hide the MonedaDelEmprendimiento window</source>
+        <translation>Vis eller skjul MonedaDelEmprendimiento-vinduet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Paycoin client</source>
-        <translation>Paycoin klient</translation>
+        <source>MonedaDelEmprendimiento client</source>
+        <translation>MonedaDelEmprendimiento klient</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -531,7 +531,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Paycoin network</source>
+        <source>%n active connection(s) to MonedaDelEmprendimiento network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -672,8 +672,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Paycoin må derfor avslutte.</translation>
+        <source>A fatal error occurred. MonedaDelEmprendimiento can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og MonedaDelEmprendimiento må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -965,7 +965,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av paycoins</translation>
+        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av MonedaDelEmprendimientos</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
@@ -974,8 +974,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Om Paycoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show MonedaDelEmprendimiento addresses in the transaction list</source>
+        <translation>Om MonedaDelEmprendimiento-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1042,8 +1042,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Paycoin address.</source>
-        <translation>Den oppgitte adressen &quot;%1&quot; er ikke en gyldig Paycoin-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MonedaDelEmprendimiento address.</source>
+        <translation>Den oppgitte adressen &quot;%1&quot; er ikke en gyldig MonedaDelEmprendimiento-adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1085,8 +1085,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Paycoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the MonedaDelEmprendimiento client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk MonedaDelEmprendimiento klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1096,7 +1096,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Koble til Paycoin sitt nettverket gjennom en SOCKS4-mellomtjener (f.eks. for tilkobling gjennom Tor)</translation>
+        <translation>Koble til MonedaDelEmprendimiento sitt nettverket gjennom en SOCKS4-mellomtjener (f.eks. for tilkobling gjennom Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1140,13 +1140,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Paycoin on window system startup</source>
-        <translation>&amp;Start Paycoin ved oppstart av datamaskinen</translation>
+        <source>&amp;Start MonedaDelEmprendimiento on window system startup</source>
+        <translation>&amp;Start MonedaDelEmprendimiento ved oppstart av datamaskinen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Paycoin after the computer is turned on</source>
-        <translation>Start Paycoin automatisk når datamaskinen blir slått på</translation>
+        <source>Automatically start MonedaDelEmprendimiento after the computer is turned on</source>
+        <translation>Start MonedaDelEmprendimiento automatisk når datamaskinen blir slått på</translation>
     </message>
 </context>
 <context>
@@ -1473,8 +1473,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Paycoin (Paycoin) debug window</source>
-        <translation>Paycoin feilsøkingsvindu</translation>
+        <source>MonedaDelEmprendimiento (MonedaDelEmprendimiento) debug window</source>
+        <translation>MonedaDelEmprendimiento feilsøkingsvindu</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1565,8 +1565,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Velkommen til Paycoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <source>Welcome to the MonedaDelEmprendimiento RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Velkommen til MonedaDelEmprendimiento sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
     </message>
 </context>
 <context>
@@ -1760,7 +1760,7 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av paycoins</translation>
+        <translation>Bekreft sending av MonedaDelEmprendimientos</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1779,8 +1779,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Advarsel: Ugyldig Paycoin-adresse</translation>
+        <source>Warning: Invalid MonedaDelEmprendimiento address</source>
+        <translation>Advarsel: Ugyldig MonedaDelEmprendimiento-adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1799,8 +1799,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>Angi en MonedaDelEmprendimiento-adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1888,8 +1888,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>Angi en MonedaDelEmprendimiento-adresse</translation>
     </message>
 </context>
 <context>
@@ -1953,8 +1953,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Paycoin-adressen</translation>
+        <source>Sign the message to prove you own this MonedaDelEmprendimiento address</source>
+        <translation>Signer meldingen for å bevise at du eier denne MonedaDelEmprendimiento-adressen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1989,8 +1989,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Paycoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified MonedaDelEmprendimiento address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte MonedaDelEmprendimiento-adressen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2015,8 +2015,8 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>Angi en MonedaDelEmprendimiento-adresse</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2574,18 +2574,18 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
-        <translation>Ute av stand til å binde til port %d på denne datamaskinen. Paycoin kjører sannsynligvis allerede.</translation>
+        <source>Unable to bind to port %d on this computer.  MonedaDelEmprendimiento is probably already running.</source>
+        <translation>Ute av stand til å binde til port %d på denne datamaskinen. MonedaDelEmprendimiento kjører sannsynligvis allerede.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Paycoin version</source>
-        <translation>Paycoin versjon</translation>
+        <source>MonedaDelEmprendimiento version</source>
+        <translation>MonedaDelEmprendimiento versjon</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or paycoind</source>
-        <translation>Send kommando til -server eller paycoind</translation>
+        <source>Send command to -server or MonedaDelEmprendimientod</source>
+        <translation>Send kommando til -server eller MonedaDelEmprendimientod</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2604,13 +2604,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: paycoin.conf)</translation>
+        <source>Specify configuration file (default: MonedaDelEmprendimiento.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: MonedaDelEmprendimiento.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: paycoind.pid)</translation>
+        <source>Specify pid file (default: MonedaDelEmprendimientod.pid)</source>
+        <translation>Angi pid-fil (standardverdi: MonedaDelEmprendimientod.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2865,30 +2865,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Ute av stand til å låse datamappen %s. Paycoin kjører sannsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  MonedaDelEmprendimiento is probably already running.</source>
+        <translation>Ute av stand til å låse datamappen %s. MonedaDelEmprendimiento kjører sannsynligvis allerede.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>MonedaDelEmprendimiento</source>
+        <translation>MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MonedaDelEmprendimiento</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start Paycoin på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart MonedaDelEmprendimiento to complete</source>
+        <translation>Lommeboken måtte skrives om: start MonedaDelEmprendimiento på nytt for å fullføre</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=paycoinrpc
+rpcuser=MonedaDelEmprendimientorpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2897,8 +2897,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Paycoin fungere skikkelig.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong MonedaDelEmprendimiento will not work properly.</source>
+        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke MonedaDelEmprendimiento fungere skikkelig.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

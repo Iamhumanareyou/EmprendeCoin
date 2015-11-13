@@ -1,6 +1,6 @@
 [Protocol]
-exec=paycoin-qt '%u'
-protocol=paycoin
+exec=MonedaDelEmprendimiento-qt '%u'
+protocol=MonedaDelEmprendimiento
 input=none
 output=none
 helper=true

@@ -1,6 +1,6 @@
 // Copyright (c) 2012 The Bitcoin developers
 // Copyright (c) 2012-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The MonedaDelEmprendimiento developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -14,7 +14,7 @@
 
 // These need to be macro's, as version.cpp's voodoo requires it
 
-// paycoin version - intended for display purpose only
+// MonedaDelEmprendimiento version - intended for display purpose only
 #define PEERUNITY_VERSION_MAJOR       0
 #define PEERUNITY_VERSION_MINOR       3
 #define PEERUNITY_VERSION_REVISION    2
@@ -26,7 +26,7 @@ static const int PEERUNITY_VERSION =
                          +     100 * PEERUNITY_VERSION_REVISION
                          +       1 * PEERUNITY_VERSION_BUILD;
 
-// paycoin version - reference for code tracking
+// MonedaDelEmprendimiento version - reference for code tracking
 #define PPCOIN_VERSION_MAJOR       0
 #define PPCOIN_VERSION_MINOR       4
 #define PPCOIN_VERSION_REVISION    0
@@ -63,7 +63,7 @@ extern const std::string CLIENT_DATE;
 
 static const int PROTOCOL_VERSION = 70005;
 
-/* As of Paycoin protocol 70002 the MIN_PROTO_VERSION is initialized
+/* As of MonedaDelEmprendimiento protocol 70002 the MIN_PROTO_VERSION is initialized
  * and determined in init to allow for a pseudo dynamic change of minimum
  * protocol. This is also updated at runtime: net.cpp/ThreadSocketHandler2
  * Old nodes are dropped upon minimum protocol change instead of simply

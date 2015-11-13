@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Paycoin
-Comment=Paycoin
-Exec=/usr/bin/paycoin-qt %u
+Name=MonedaDelEmprendimiento
+Comment=MonedaDelEmprendimiento
+Exec=/usr/bin/MonedaDelEmprendimiento-qt %u
 Terminal=false
 Type=Application
-Icon=paycoin
-MimeType=x-scheme-handler/paycoin;
+Icon=MonedaDelEmprendimiento
+MimeType=x-scheme-handler/MonedaDelEmprendimiento;
 Categories=Office;

@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The MonedaDelEmprendimiento developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -78,7 +78,7 @@ bool CWallet::AddCScript(const CScript& redeemScript)
     return CWalletDB(strWalletFile).WriteCScript(Hash160(redeemScript), redeemScript);
 }
 
-// paycoin: optional setting to unlock wallet for block minting only;
+// MonedaDelEmprendimiento: optional setting to unlock wallet for block minting only;
 //         serves to disable the trivial sendmoney when OS account compromised
 bool fWalletUnlockMintOnly = false;
 
@@ -928,7 +928,7 @@ void CWallet::AvailableCoins(vector<COutput>& vCoins, bool fOnlyConfirmed, const
     }
 }
 
-// paycoin: total coins staked (non-spendable until maturity)
+// MonedaDelEmprendimiento: total coins staked (non-spendable until maturity)
 int64 CWallet::GetStake() const
 {
     int64 nTotal = 0;
@@ -994,7 +994,7 @@ bool CWallet::SelectCoinsMinConf(int64 nTargetValue, unsigned int nSpendTime, in
                     continue;
 
                 if (pcoin->nTime > nSpendTime)
-                    continue;  // paycoin: timestamp must not exceed spend time
+                    continue;  // MonedaDelEmprendimiento: timestamp must not exceed spend time
 
                 int64 n = pcoin->vout[i].nValue;
 
@@ -1213,7 +1213,7 @@ bool CWallet::CreateTransaction(vector<pair<CScript, int64> >& vecSend, CWalletT
                     nFeeRet += nMoveToFee;
                 }
 
-                // paycoin: sub-cent change is moved to fee
+                // MonedaDelEmprendimiento: sub-cent change is moved to fee
                 if (nChange > 0 && nChange < MIN_TXOUT_AMOUNT)
                 {
                     nFeeRet += nChange;
@@ -1222,7 +1222,7 @@ bool CWallet::CreateTransaction(vector<pair<CScript, int64> >& vecSend, CWalletT
 
                 if (nChange > 0)
                 {
-                    if (!GetBoolArg("-avatar")) // paycoin: not avatar mode
+                    if (!GetBoolArg("-avatar")) // MonedaDelEmprendimiento: not avatar mode
                     {
                         // Fill a vout to ourself
                         // TODO: pass in scriptChange instead of reservekey so
@@ -1300,7 +1300,7 @@ bool CWallet::CreateTransaction(CScript scriptPubKey, int64 nValue, CWalletTx& w
     return CreateTransaction(vecSend, wtxNew, reservekey, nFeeRet, coinControl);
 }
 
-// paycoin: create coin stake transaction
+// MonedaDelEmprendimiento: create coin stake transaction
 bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int64 nSearchInterval, CTransaction& txNew, int64 nMoneySupply)
 {
     // The following split & combine thresholds are important to security
@@ -2118,8 +2118,8 @@ set< set<CTxDestination> > CWallet::GetAddressGroupings()
     return ret;
 }
 
-// paycoin: check 'spent' consistency between wallet and txindex
-// paycoin: fix wallet spent state according to txindex
+// MonedaDelEmprendimiento: check 'spent' consistency between wallet and txindex
+// MonedaDelEmprendimiento: fix wallet spent state according to txindex
 void CWallet::FixSpentCoins(int& nMismatchFound, int64& nBalanceInQuestion, bool fCheckOnly)
 {
     nMismatchFound = 0;
@@ -2168,7 +2168,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64& nBalanceInQuestion, bool
     }
 }
 
-// paycoin: disable transaction (only for coinstake)
+// MonedaDelEmprendimiento: disable transaction (only for coinstake)
 void CWallet::DisableTransaction(const CTransaction &tx)
 {
     if (!tx.IsCoinStake() || !IsFromMe(tx))

@@ -1,3 +1,3 @@
-paycoin-qt usr/bin
-debian/paycoin-qt.desktop usr/share/applications
-debian/paycoin-qt.protocol usr/share/kde4/services
+MonedaDelEmprendimiento-qt usr/bin
+debian/MonedaDelEmprendimiento-qt.desktop usr/share/applications
+debian/MonedaDelEmprendimiento-qt.protocol usr/share/kde4/services

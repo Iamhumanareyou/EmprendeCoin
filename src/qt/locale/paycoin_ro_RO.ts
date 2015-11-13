@@ -6,19 +6,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Paycoin</source>
+        <source>About MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;MonedaDelEmprendimiento&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 MonedaDelEmprendimiento Developers
 
 This is experimental software.
 
@@ -37,7 +37,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your MonedaDelEmprendimiento addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -248,13 +248,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MonedaDelEmprendimientoS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
+        <source>MonedaDelEmprendimiento will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MonedaDelEmprendimientos from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -336,7 +336,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Primiţi Paycoin</translation>
+        <translation>&amp;Primiţi MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="216"/>
@@ -346,7 +346,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="221"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Trimiteţi Paycoin</translation>
+        <translation>&amp;Trimiteţi MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="227"/>
@@ -370,7 +370,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Paycoin</source>
+        <source>Show information about MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -485,37 +485,37 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Paycoin Wallet</source>
+        <source>MonedaDelEmprendimiento Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Paycoin address</source>
+        <source>Send coins to a MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Paycoin</source>
+        <source>&amp;About MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Paycoin</source>
+        <source>Modify configuration options for MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Paycoin</source>
+        <source>Show/Hide &amp;MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Paycoin window</source>
+        <source>Show or hide the MonedaDelEmprendimiento window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Paycoin client</source>
+        <source>MonedaDelEmprendimiento client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -525,7 +525,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Paycoin network</source>
+        <source>%n active connection(s) to MonedaDelEmprendimiento network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -668,7 +668,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. MonedaDelEmprendimiento can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -951,7 +951,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="279"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de Paycoin.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de MonedaDelEmprendimiento.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
@@ -960,7 +960,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
+        <source>Whether to show MonedaDelEmprendimiento addresses in the transaction list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1028,7 +1028,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Paycoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid MonedaDelEmprendimiento address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1071,7 +1071,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MonedaDelEmprendimiento client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1082,7 +1082,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Conectare la reţeaua Paycoin folosind un proxy SOCKS4 (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <translation>Conectare la reţeaua MonedaDelEmprendimiento folosind un proxy SOCKS4 (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1126,12 +1126,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Paycoin on window system startup</source>
+        <source>&amp;Start MonedaDelEmprendimiento on window system startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Paycoin after the computer is turned on</source>
+        <source>Automatically start MonedaDelEmprendimiento after the computer is turned on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1459,7 +1459,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Paycoin (Paycoin) debug window</source>
+        <source>MonedaDelEmprendimiento (MonedaDelEmprendimiento) debug window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1551,7 +1551,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <source>Welcome to the MonedaDelEmprendimiento RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1567,7 +1567,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../sendcoinsdialog.cpp" line="202"/>
         <location filename="../sendcoinsdialog.cpp" line="207"/>
         <source>Send Coins</source>
-        <translation>Trimite Paycoin</translation>
+        <translation>Trimite MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1746,7 +1746,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de Paycoin</translation>
+        <translation>Confirmaţi trimiterea de MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1765,7 +1765,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
-        <source>Warning: Invalid Paycoin address</source>
+        <source>Warning: Invalid MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1785,7 +1785,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Paycoin address</source>
+        <source>Enter a MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1811,7 +1811,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="208"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de Paycoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de MonedaDelEmprendimiento din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1874,7 +1874,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Paycoin address</source>
+        <source>Enter a MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1939,7 +1939,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Paycoin address</source>
+        <source>Sign the message to prove you own this MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1975,7 +1975,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
+        <source>Verify the message to ensure it was signed with the specified MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2001,7 +2001,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Paycoin address</source>
+        <source>Enter a MonedaDelEmprendimiento address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2214,7 +2214,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele Paycoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde. {520 ?}</translation>
+        <translation>Monedele MonedaDelEmprendimiento generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde. {520 ?}</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
@@ -2290,8 +2290,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactiontablemodel.cpp" line="301"/>
         <source>Mined balance will be available in %n more blocks</source>
         <translation>
-            <numerusform>Soldul de Paycoin produs va fi disponibil după încă %n bloc</numerusform>
-            <numerusform>Soldul de Paycoin produs va fi disponibil după încă %n blocuri</numerusform>
+            <numerusform>Soldul de MonedaDelEmprendimiento produs va fi disponibil după încă %n bloc</numerusform>
+            <numerusform>Soldul de MonedaDelEmprendimiento produs va fi disponibil după încă %n blocuri</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -2562,17 +2562,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  MonedaDelEmprendimiento is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Paycoin version</source>
+        <source>MonedaDelEmprendimiento version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or paycoind</source>
+        <source>Send command to -server or MonedaDelEmprendimientod</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2592,12 +2592,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: paycoin.conf)</source>
+        <source>Specify configuration file (default: MonedaDelEmprendimiento.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: paycoind.pid)</source>
+        <source>Specify pid file (default: MonedaDelEmprendimientod.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2853,22 +2853,22 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  MonedaDelEmprendimiento is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Paycoin</source>
+        <source>MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of MonedaDelEmprendimiento</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
+        <source>Wallet needed to be rewritten: restart MonedaDelEmprendimiento to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2876,7 +2876,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=paycoinrpc
+rpcuser=MonedaDelEmprendimientorpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2885,7 +2885,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong MonedaDelEmprendimiento will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3013,7 +3013,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de Paycoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de MonedaDelEmprendimiento din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>

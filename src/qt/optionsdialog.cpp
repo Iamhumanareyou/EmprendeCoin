@@ -255,7 +255,7 @@ DisplayOptionsPage::DisplayOptionsPage(QWidget *parent):
        lang->addItem(langStr, QVariant(langStr));
     }
 
-    lang->setToolTip(tr("The user interface language can be set here. This setting will only take effect after restarting Paycoin."));
+    lang->setToolTip(tr("The user interface language can be set here. This setting will only take effect after restarting MonedaDelEmprendimiento."));
     connect(lang, SIGNAL(activated(int)), this, SLOT(showRestartWarning()));
 
     lang_label->setBuddy(lang);
@@ -277,7 +277,7 @@ DisplayOptionsPage::DisplayOptionsPage(QWidget *parent):
     layout->addLayout(unit_hbox);
 
     display_addresses = new QCheckBox(tr("&Display addresses in transaction list"), this);
-    display_addresses->setToolTip(tr("Whether to show Paycoin addresses in the transaction list"));
+    display_addresses->setToolTip(tr("Whether to show MonedaDelEmprendimiento addresses in the transaction list"));
     layout->addWidget(display_addresses);
 
     coin_control_features = new QCheckBox(tr("Display coin control features (experts only!)"), this);
@@ -300,7 +300,7 @@ void DisplayOptionsPage::showRestartWarning()
 {
     if(!restart_warning_displayed)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Paycoin."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting MonedaDelEmprendimiento."), QMessageBox::Ok);
         restart_warning_displayed = true;
     }
 }
@@ -312,8 +312,8 @@ WindowOptionsPage::WindowOptionsPage(QWidget *parent):
     QVBoxLayout *layout = new QVBoxLayout();
     setWindowTitle(tr("Window"));
 
-    bitcoin_at_startup = new QCheckBox(tr("&Start Paycoin on window system startup"));
-    bitcoin_at_startup->setToolTip(tr("Automatically start Paycoin after the computer is turned on"));
+    bitcoin_at_startup = new QCheckBox(tr("&Start MonedaDelEmprendimiento on window system startup"));
+    bitcoin_at_startup->setToolTip(tr("Automatically start MonedaDelEmprendimiento after the computer is turned on"));
     layout->addWidget(bitcoin_at_startup);
 
 #ifndef Q_OS_MAC
@@ -350,7 +350,7 @@ NetworkOptionsPage::NetworkOptionsPage(QWidget *parent):
     setWindowTitle(tr("Network"));
 
     map_port_upnp = new QCheckBox(tr("Map port using &UPnP"));
-    map_port_upnp->setToolTip(tr("Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled."));
+    map_port_upnp->setToolTip(tr("Automatically open the MonedaDelEmprendimiento client port on the router. This only works when your router supports UPnP and it is enabled."));
     layout->addWidget(map_port_upnp);
 
     connect_socks4 = new QCheckBox(tr("&Connect through SOCKS4 proxy:"));

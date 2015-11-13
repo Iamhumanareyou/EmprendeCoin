@@ -1,9 +1,9 @@
 /*
- * Qt4 paycoin GUI.
+ * Qt4 MonedaDelEmprendimiento GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The Paycoin Developers 2011-2013
+ * The MonedaDelEmprendimiento Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -75,9 +75,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     spinnerFrame(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("Paycoin Wallet"));
+    setWindowTitle(tr("MonedaDelEmprendimiento Wallet"));
 #ifndef Q_OS_MAC
-    setWindowIcon(QIcon(":icons/paycoin_icon"));
+    setWindowIcon(QIcon(":icons/MonedaDelEmprendimiento_icon"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -231,7 +231,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Paycoin address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a MonedaDelEmprendimiento address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -267,17 +267,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/paycoin_tooltip"), tr("&About Paycoin"), this);
-    aboutAction->setToolTip(tr("Show information about Paycoin"));
+    aboutAction = new QAction(QIcon(":/icons/MonedaDelEmprendimiento_tooltip"), tr("&About MonedaDelEmprendimiento"), this);
+    aboutAction->setToolTip(tr("Show information about MonedaDelEmprendimiento"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Paycoin"));
+    optionsAction->setToolTip(tr("Modify configuration options for MonedaDelEmprendimiento"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/paycoin_tooltip"), tr("Show/Hide &Paycoin"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the Paycoin window"));
+    toggleHideAction = new QAction(QIcon(":/icons/MonedaDelEmprendimiento_tooltip"), tr("Show/Hide &MonedaDelEmprendimiento"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the MonedaDelEmprendimiento window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -368,14 +368,14 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_OS_MAC
-            setWindowIcon(QIcon(":icons/paycoin_icon"));
+            setWindowIcon(QIcon(":icons/MonedaDelEmprendimiento_icon"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/paycoin_icon"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/MonedaDelEmprendimiento_icon"));
 #endif
             if(trayIcon)
             {
                 trayIcon->setToolTip(title_testnet);
-                trayIcon->setIcon(QIcon(":/icons/paycoin_tooltip"));
+                trayIcon->setIcon(QIcon(":/icons/MonedaDelEmprendimiento_tooltip"));
             }
         }
 
@@ -431,8 +431,8 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Paycoin client"));
-    trayIcon->setIcon(QIcon(":/icons/paycoin_tooltip"));
+    trayIcon->setToolTip(tr("MonedaDelEmprendimiento client"));
+    trayIcon->setIcon(QIcon(":/icons/MonedaDelEmprendimiento_tooltip"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
     trayIcon->show();
@@ -525,7 +525,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Paycoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to MonedaDelEmprendimiento network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

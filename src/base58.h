@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Developers
 // Copyright (c) 2011-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The MonedaDelEmprendimiento developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -278,8 +278,8 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 55,  // paycoin: addresses begin with 'P'
-        SCRIPT_ADDRESS = 117, // paycoin: addresses begin with 'p'
+        PUBKEY_ADDRESS = 55,  // MonedaDelEmprendimiento: addresses begin with 'P'
+        SCRIPT_ADDRESS = 117, // MonedaDelEmprendimiento: addresses begin with 'p'
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
     };

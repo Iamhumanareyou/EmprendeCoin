@@ -6,19 +6,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Paycoin</source>
-        <translation>Su Paycoin</translation>
+        <source>About MonedaDelEmprendimiento</source>
+        <translation>Su MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;MonedaDelEmprendimiento&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MonedaDelEmprendimiento&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 MonedaDelEmprendimiento Developers
 
 This is experimental software.
 
@@ -27,7 +27,7 @@ Distributed under the MIT software license, see the accompanying file COPYING or
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>Copyright © 2009-2014 Bitcoin Developers
 Copyright © 2011-2014 Sviluppatori Peercoin
-Copyright © 2014 Sviluppatori Paycoin
+Copyright © 2014 Sviluppatori MonedaDelEmprendimiento
 Questo è un software sperimentale.
 Distribuito secondo la licenza software MIT, leggi il file di accompagnamento COPYING o http://www.opensource.org/licenses/mit-license.php.
 Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;utilizzo nel Toolkit OpenSSL (https://www.openssl.org/)  e software crittografico scritto da Eric Young (eay@cryptsoft.com) e software UPnP scritto da by Thomas Bernard.</translation>
@@ -42,8 +42,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;util
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi Paycoin per la ricezione di pagamenti. Potresti dare un indirizzo differente ad ogni mittente per tenere traccia di chi ti sta pagando.</translation>
+        <source>These are your MonedaDelEmprendimiento addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Questi sono i tuoi indirizzi MonedaDelEmprendimiento per la ricezione di pagamenti. Potresti dare un indirizzo differente ad ogni mittente per tenere traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -253,15 +253,15 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;util
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MonedaDelEmprendimientoS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATTENZIONE: Se cifri il tuo portafoglio e perdi la tua parola chiave, &lt;b&gt;PERDERAI TUTTI I TUOI PAYCOINS&lt;/b&gt;!
+        <translation>ATTENZIONE: Se cifri il tuo portafoglio e perdi la tua parola chiave, &lt;b&gt;PERDERAI TUTTI I TUOI MonedaDelEmprendimientoS&lt;/b&gt;!
 Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin si chiuderà adesso per finire il processo di criptazione. Ricorda che criptare il tuo portafoglio non può proteggere completamente i tuoi Paycoin da essere rubati con malware che ha infettato il tuo computer.</translation>
+        <source>MonedaDelEmprendimiento will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MonedaDelEmprendimientos from being stolen by malware infecting your computer.</source>
+        <translation>MonedaDelEmprendimiento si chiuderà adesso per finire il processo di criptazione. Ricorda che criptare il tuo portafoglio non può proteggere completamente i tuoi MonedaDelEmprendimiento da essere rubati con malware che ha infettato il tuo computer.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -376,8 +376,8 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Paycoin</source>
-        <translation>Mostra informazioni su Paycoin</translation>
+        <source>Show information about MonedaDelEmprendimiento</source>
+        <translation>Mostra informazioni su MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -491,38 +491,38 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Paycoin Wallet</source>
-        <translation>Portafoglio Paycoin</translation>
+        <source>MonedaDelEmprendimiento Wallet</source>
+        <translation>Portafoglio MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Invia monete ad un indirizzo Paycoin</translation>
+        <source>Send coins to a MonedaDelEmprendimiento address</source>
+        <translation>Invia monete ad un indirizzo MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Paycoin</source>
-        <translation>Su Paycoin</translation>
+        <source>&amp;About MonedaDelEmprendimiento</source>
+        <translation>Su MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Modifica opzioni di configurazione per Paycoin</translation>
+        <source>Modify configuration options for MonedaDelEmprendimiento</source>
+        <translation>Modifica opzioni di configurazione per MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Mostra/Nascondi Paycoin</translation>
+        <source>Show/Hide &amp;MonedaDelEmprendimiento</source>
+        <translation>Mostra/Nascondi MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Mostra o nascondi la finestra di Paycoin</translation>
+        <source>Show or hide the MonedaDelEmprendimiento window</source>
+        <translation>Mostra o nascondi la finestra di MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Paycoin client</source>
-        <translation>Client Paycoin</translation>
+        <source>MonedaDelEmprendimiento client</source>
+        <translation>Client MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -531,7 +531,7 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Paycoin network</source>
+        <source>%n active connection(s) to MonedaDelEmprendimiento network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -673,8 +673,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>Un errore fatale è occorso. Paycoin non può più continuare in modo sicuro e sarà terminato.</translation>
+        <source>A fatal error occurred. MonedaDelEmprendimiento can no longer continue safely and will quit.</source>
+        <translation>Un errore fatale è occorso. MonedaDelEmprendimiento non può più continuare in modo sicuro e sarà terminato.</translation>
     </message>
 </context>
 <context>
@@ -972,8 +972,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Se mostrare gli indirizzi Paycoin nella lista transazioni</translation>
+        <source>Whether to show MonedaDelEmprendimiento addresses in the transaction list</source>
+        <translation>Se mostrare gli indirizzi MonedaDelEmprendimiento nella lista transazioni</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1040,8 +1040,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Paycoin address.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo Paycoin valido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MonedaDelEmprendimiento address.</source>
+        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo MonedaDelEmprendimiento valido.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1083,8 +1083,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aprire automaticamente la porta del client Paycoin nel router. Questo funziona solamente quando il supporto UPnp del router è abilitato.</translation>
+        <source>Automatically open the MonedaDelEmprendimiento client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aprire automaticamente la porta del client MonedaDelEmprendimiento nel router. Questo funziona solamente quando il supporto UPnp del router è abilitato.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1138,13 +1138,13 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Paycoin on window system startup</source>
-        <translation>Avvia Paycoin a finestra all&apos;avvio del sistema</translation>
+        <source>&amp;Start MonedaDelEmprendimiento on window system startup</source>
+        <translation>Avvia MonedaDelEmprendimiento a finestra all&apos;avvio del sistema</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Paycoin after the computer is turned on</source>
-        <translation>Automaticamente avvia Paycoin dopo che il computer è stato acceso</translation>
+        <source>Automatically start MonedaDelEmprendimiento after the computer is turned on</source>
+        <translation>Automaticamente avvia MonedaDelEmprendimiento dopo che il computer è stato acceso</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Paycoin (Paycoin) debug window</source>
-        <translation>Finestra debug Paycoin (Paycoin)</translation>
+        <source>MonedaDelEmprendimiento (MonedaDelEmprendimiento) debug window</source>
+        <translation>Finestra debug MonedaDelEmprendimiento (MonedaDelEmprendimiento)</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1563,8 +1563,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Benvenuto alla console Paycoin RPC.&lt;br&gt;Utilizza le frecce in alto e in basso per navigare la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt;per cancellare lo schermo.&lt;br&gt;Scrivi &lt;b&gt;aiuto&lt;/b&gt; per una panoramica dei comandi disponibili.</translation>
+        <source>Welcome to the MonedaDelEmprendimiento RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Benvenuto alla console MonedaDelEmprendimiento RPC.&lt;br&gt;Utilizza le frecce in alto e in basso per navigare la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt;per cancellare lo schermo.&lt;br&gt;Scrivi &lt;b&gt;aiuto&lt;/b&gt; per una panoramica dei comandi disponibili.</translation>
     </message>
 </context>
 <context>
@@ -1579,7 +1579,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
         <location filename="../sendcoinsdialog.cpp" line="202"/>
         <location filename="../sendcoinsdialog.cpp" line="207"/>
         <source>Send Coins</source>
-        <translation>Spedisci Paycoin</translation>
+        <translation>Spedisci MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1758,7 +1758,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Conferma la spedizione di Paycoin</translation>
+        <translation>Conferma la spedizione di MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1777,7 +1777,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
-        <source>Warning: Invalid Paycoin address</source>
+        <source>Warning: Invalid MonedaDelEmprendimiento address</source>
         <translation>Attenzione: Indirizzo Bittcoin non vaildo</translation>
     </message>
     <message>
@@ -1797,8 +1797,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Paycoin address</source>
-        <translation>Inserisci un indirzzo Paycoin</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>Inserisci un indirzzo MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1823,7 +1823,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="208"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i paycoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i MonedaDelEmprendimiento sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
 </context>
 <context>
@@ -1886,8 +1886,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Paycoin address</source>
-        <translation>Inserisci un indirzzo Paycoin</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>Inserisci un indirzzo MonedaDelEmprendimiento</translation>
     </message>
 </context>
 <context>
@@ -1951,8 +1951,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Paycoin</translation>
+        <source>Sign the message to prove you own this MonedaDelEmprendimiento address</source>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1987,8 +1987,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirzzo Paycoin specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified MonedaDelEmprendimiento address</source>
+        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirzzo MonedaDelEmprendimiento specificato</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2013,8 +2013,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Paycoin address</source>
-        <translation>Inserisci un indirzzo Paycoin</translation>
+        <source>Enter a MonedaDelEmprendimiento address</source>
+        <translation>Inserisci un indirzzo MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2226,7 +2226,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Bisogna attendere 120 blocchi prima di spendere I Paycoin generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo. {520 ?}</translation>
+        <translation>Bisogna attendere 120 blocchi prima di spendere I MonedaDelEmprendimiento generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo. {520 ?}</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
@@ -2572,18 +2572,18 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
-        <translation>Impossibile connettersi con la porta %d su questo computer. Paycoin è probabilmente già in funzione.</translation>
+        <source>Unable to bind to port %d on this computer.  MonedaDelEmprendimiento is probably already running.</source>
+        <translation>Impossibile connettersi con la porta %d su questo computer. MonedaDelEmprendimiento è probabilmente già in funzione.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Paycoin version</source>
-        <translation>Versione Paycoin</translation>
+        <source>MonedaDelEmprendimiento version</source>
+        <translation>Versione MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or paycoind</source>
-        <translation>Invia un comando al -server o paycoind</translation>
+        <source>Send command to -server or MonedaDelEmprendimientod</source>
+        <translation>Invia un comando al -server o MonedaDelEmprendimientod</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2605,25 +2605,25 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Specifia il file di configurazione (default: paycoin.conf)</translation>
+        <source>Specify configuration file (default: MonedaDelEmprendimiento.conf)</source>
+        <translation>Specifia il file di configurazione (default: MonedaDelEmprendimiento.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Specifica il file pid (default: paycoind.pid)
+        <source>Specify pid file (default: MonedaDelEmprendimientod.pid)</source>
+        <translation>Specifica il file pid (default: MonedaDelEmprendimientod.pid)
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>Generate coins</source>
-        <translation>Genera Paycoin
+        <translation>Genera MonedaDelEmprendimiento
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Non generare Paycoin
+        <translation>Non generare MonedaDelEmprendimiento
 </translation>
     </message>
     <message>
@@ -2889,30 +2889,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Non è possibile ottenere il lock sulla directory dati %s. Paycoin è probabilmente già in funzione.</translation>
+        <source>Cannot obtain a lock on data directory %s.  MonedaDelEmprendimiento is probably already running.</source>
+        <translation>Non è possibile ottenere il lock sulla directory dati %s. MonedaDelEmprendimiento è probabilmente già in funzione.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>MonedaDelEmprendimiento</source>
+        <translation>MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Errore caricamento wallet.dat. Il portafoglio richiede una nuova versione di Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MonedaDelEmprendimiento</source>
+        <translation>Errore caricamento wallet.dat. Il portafoglio richiede una nuova versione di MonedaDelEmprendimiento</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Il portafoglio deve essere riscritto: riavvia Paycoin per completare</translation>
+        <source>Wallet needed to be rewritten: restart MonedaDelEmprendimiento to complete</source>
+        <translation>Il portafoglio deve essere riscritto: riavvia MonedaDelEmprendimiento per completare</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=paycoinrpc
+rpcuser=MonedaDelEmprendimientorpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2921,8 +2921,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Attenzione: Per favore controlla che la data e l&apos;orario del tuo computer sono corretti. Se il tuo orario è sbagliato Paycoin non funzionerà correttamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong MonedaDelEmprendimiento will not work properly.</source>
+        <translation>Attenzione: Per favore controlla che la data e l&apos;orario del tuo computer sono corretti. Se il tuo orario è sbagliato MonedaDelEmprendimiento non funzionerà correttamente.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
@@ -3051,7 +3051,7 @@ Se il file non esiste, crealo con permesso sola lettura del proprietario. </tran
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i paycoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i MonedaDelEmprendimiento sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>
